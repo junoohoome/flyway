@@ -255,7 +255,7 @@ public class MySQLDatabase extends Database<MySQLConnection> {
             recommendFlywayUpgradeIfNecessary("10.6");
         } else {
 
-            ensureDatabaseNotOlderThanOtherwiseRecommendUpgradeToFlywayEdition("8.0", org.flywaydb.core.internal.license.Edition.ENTERPRISE);
+            ensureDatabaseNotOlderThanOtherwiseRecommendUpgradeToFlywayEdition("5.7", org.flywaydb.core.internal.license.Edition.ENTERPRISE);
 
 
 
@@ -268,7 +268,7 @@ public class MySQLDatabase extends Database<MySQLConnection> {
 
 
 
-            recommendFlywayUpgradeIfNecessary("8.0");
+            recommendFlywayUpgradeIfNecessary("5.7");
         }
     }
 
